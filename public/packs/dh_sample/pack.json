@@ -1,0 +1,24 @@
+{
+  "manifest.json": {
+    "format_version": "1.20.0",
+    "header": {
+      "name": "DH Sample Pack",
+      "description": "Adds a glowing lantern block. Loaded at startup as a behaviour pack.",
+      "uuid": "6f1d3c2a-8b7e-4c59-9a10-2d4e5f60a7b1",
+      "version": [1, 0, 0]
+    }
+  },
+  "blocks/glow_lantern.json": {
+    "format_version": "1.20.0",
+    "minecraft:block": {
+      "description": { "identifier": "dh:glow_lantern" },
+      "components": {
+        "minecraft:map_color": "#FFD27A",
+        "minecraft:light_emission": 12,
+        "minecraft:destroy_time": 0.5,
+        "minecraft:geometry": "cube",
+        "dh:drops": "dh:glow_lantern"
+      }
+    }
+  }
+}
